@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+body {
+  text-align: center;
+  font-size:1.1rem;
+}
+nav {
+    background-color:#9DC08B;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding:20px;
+    position: relative;
+    left:550px;
+    color:black;
+    font-family: "Tilt Neon", cursive;
+
+}
+nav a li:hover{
+    font-size:20px;
+}
+.name{
+    font-family: "Sacramento", cursive;
+}
+.clg{
+    font-family: "Tilt Neon", cursive;
+}
+.top-container {
+  background-color: #9DC08B;
+  padding-top: 30px;
+}
+
+.top-cloud {
+  position: relative;
+  top: 35px;
+  left: 230px;
+}
+.bottom-cloud {
+  position: relative;
+  left: 70px;
+  bottom: 300px;
+}
+.mountain{
+    position: relative;
+    left: -60px;
+    
+}
+
+/* .mid-container{
+   display: flex;
+   flex-direction: column;
+} */
+.mid-container{
+    word-spacing: 15px;
+}
+.pavan-img{
+    margin:auto;
+    height:200px;
+    width:200px;
+    border-radius:70px;    
+}
+h2{
+    font-family: "Sacramento", cursive;
+}
+.mid-container{
+    background-color: #E1EEDD;
+}
+.mid-container p{
+    font-family: "Tilt Neon", cursive;
+    margin:10px 0px;
+}
+
+.mid-container img{
+    width:200px;
+    height:200px;
+    margin:auto;
+    border-radius: 40px;   
+}
+
+.coding{
+    width:50%;
+    margin:50px auto 100px auto;
+    line-height:2;
+}
+.coding img{
+    float:left;
+    width:100px;
+    height:100px;
+}
+.skill{
+    width:50%;
+    margin:100px auto 100px auto;
+    line-height:3;
+}
+.skill img{
+    float:right;
+    width:100px;
+    height:100px;
+}
+
+.bottom-container{
+    word-spacing: 10px;
+    background-color: #DDF7E3;
+    line-height: 2;
+}
+
+.bottom-container img{
+    height:30px;
+    width:30px;  
+    border:2px solid black;
+    border-radius: 30px;  
+}
+
+.bottom-container img:hover{
+    height:40px;
+    width:40px; 
+}
